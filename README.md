@@ -14,6 +14,7 @@ For more details see the [Genome Biology paper](https://doi.org/10.1186/s13059-0
 See the DESCRIPTION file for a list of authors and contributors.
 
 ## Installation via conda
+```{r}
 Fork willtownes/quminorm to <your_account>
 git clone https://github.com/<your_account>/quminorm
 cd quminorm/
@@ -21,11 +22,7 @@ git tag v1.0.0
 git push --tags
 conda skeleton cran https://github.com/DrNSAlvarez/quminorm
 conda build --R=4.1.0 r-quminorm
-
-```{r}
-remotes::install_github("willtownes/quminorm")
 ```
-
 ## Usage
 
 Please refer to the vignettes.
