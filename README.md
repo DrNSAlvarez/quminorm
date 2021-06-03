@@ -20,7 +20,7 @@ git clone https://github.com/<your_account>/quminorm
 cd quminorm/
 git tag v1.0.0
 git push --tags
-conda skeleton cran https://github.com/DrNSAlvarez/quminorm
+conda skeleton cran https://github.com/<your_account>/quminorm
 conda build --R=4.1.0 r-quminorm
 ```
 ## Usage
